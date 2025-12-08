@@ -1,0 +1,211 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Recharge Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-br from-[#B33791] via-[#C562AF] to-[#FEC5F6] min-h-screen">
+    <!-- Header -->
+    <header class="bg-white bg-opacity-10 backdrop-blur-lg shadow-lg">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-white font-bold text-xl">RechargeHub</div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="recharge.html" class="text-white hover:text-gray-200 transition-colors">Home</a>
+                <a href="plans.html" class="text-white hover:text-gray-200 transition-colors">Plans</a>
+                <a href="index.html" class="text-white hover:text-gray-200 transition-colors">Login</a>
+                <a href="register.html" class="text-white hover:text-gray-200 transition-colors">Register</a>
+            </nav>
+            <button class="md:hidden text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-20 px-4">
+        <div class="container mx-auto text-center">
+            <div class="mb-8 bounce">
+                <svg class="w-24 h-24 mx-auto text-white mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                </svg>
+            </div>
+            <h1 class="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                RechargeApp<br>
+                <span class="text-yellow-300">Your Ultimate Mobile Recharge Solution</span>
+            </h1>
+            <p class="text-xl text-gray-200 mb-8 max-w-3xl mx-auto">
+                RechargeApp is a comprehensive mobile recharge application that offers instant top-ups, data packs, bill payments, and exclusive offers. With user-friendly interface, secure payments, and 24/7 customer support, stay connected effortlessly across all major networks in India.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="plans.html" class="bg-gradient-to-r from-[#B33791] to-[#C562AF] text-white font-bold py-3 px-8 rounded-full hover:from-[#C562AF] hover:to-[#DB8DD0] transition-all duration-300 transform hover:scale-105 shadow-lg inline-block text-center">
+                    Recharge Now
+                </a>
+                <button class="bg-white bg-opacity-20 text-white font-bold py-3 px-8 rounded-full hover:bg-opacity-30 transition-all duration-300 backdrop-blur-sm">
+                    Learn More
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 px-4 bg-white bg-opacity-10 backdrop-blur-lg">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-white text-center mb-12">App Features</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6 bg-white bg-opacity-20 rounded-lg backdrop-blur-sm">
+                    <div class="w-16 h-16 bg-gradient-to-r from-[#B33791] to-[#C562AF] rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Instant Recharge</h3>
+                    <p class="text-gray-200">Lightning-fast recharge processing with real-time confirmation. Get your mobile balance topped up in seconds.</p>
+                </div>
+                <div class="text-center p-6 bg-white bg-opacity-20 rounded-lg backdrop-blur-sm">
+                    <div class="w-16 h-16 bg-gradient-to-r from-[#C562AF] to-[#DB8DD0] rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Secure Payments</h3>
+                    <p class="text-gray-200">Bank-grade security with multiple payment options including UPI, credit/debit cards, net banking, and wallets.</p>
+                </div>
+                <div class="text-center p-6 bg-white bg-opacity-20 rounded-lg backdrop-blur-sm">
+                    <div class="w-16 h-16 bg-gradient-to-r from-[#DB8DD0] to-[#FEC5F6] rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Exclusive Offers</h3>
+                    <p class="text-gray-200">Access to exclusive deals, cashback rewards, and personalized offers based on your recharge history.</p>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 mt-8">
+                <div class="text-center p-6 bg-white bg-opacity-20 rounded-lg backdrop-blur-sm">
+                    <div class="w-16 h-16 bg-gradient-to-r from-[#FEC5F6] to-[#B33791] rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">24/7 Support</h3>
+                    <p class="text-gray-200">Round-the-clock customer support via chat, call, or email for any recharge-related queries or issues.</p>
+                </div>
+                <div class="text-center p-6 bg-white bg-opacity-20 rounded-lg backdrop-blur-sm">
+                    <div class="w-16 h-16 bg-gradient-to-r from-[#B33791] to-[#FEC5F6] rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Bill Payments</h3>
+                    <p class="text-gray-200">Pay electricity, water, gas, and other utility bills seamlessly within the same app.</p>
+                </div>
+                <div class="text-center p-6 bg-white bg-opacity-20 rounded-lg backdrop-blur-sm">
+                    <div class="w-16 h-16 bg-gradient-to-r from-[#C562AF] to-[#B33791] rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Usage Analytics</h3>
+                    <p class="text-gray-200">Track your recharge history, data usage, and spending patterns with detailed analytics and insights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-16 px-4 bg-white bg-opacity-10 backdrop-blur-lg">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-white text-center mb-12">How It Works</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-[#B33791] to-[#C562AF] rounded-full mx-auto mb-4 flex items-center justify-center text-2xl font-bold text-white">1</div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Download App</h3>
+                    <p class="text-gray-200">Get RechargeApp from Google Play Store or App Store and install it on your device.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-[#C562AF] to-[#DB8DD0] rounded-full mx-auto mb-4 flex items-center justify-center text-2xl font-bold text-white">2</div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Enter Details</h3>
+                    <p class="text-gray-200">Enter your mobile number, select your operator, and choose your preferred recharge plan.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-[#DB8DD0] to-[#FEC5F6] rounded-full mx-auto mb-4 flex items-center justify-center text-2xl font-bold text-white">3</div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Make Payment</h3>
+                    <p class="text-gray-200">Choose your payment method and complete the secure transaction instantly.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-[#FEC5F6] to-[#B33791] rounded-full mx-auto mb-4 flex items-center justify-center text-2xl font-bold text-white">4</div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Get Recharged</h3>
+                    <p class="text-gray-200">Receive instant confirmation and enjoy your recharged balance immediately.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section class="py-16 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-white text-center mb-12">Featured Recharge Plans</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white bg-opacity-20 backdrop-blur-lg rounded-lg p-6 text-center shadow-lg border border-white border-opacity-20">
+                    <h3 class="text-2xl font-bold text-white mb-2">₹199</h3>
+                    <p class="text-gray-200 mb-4">28 Days Validity | All Networks</p>
+                    <ul class="text-left text-gray-200 mb-6 space-y-2">
+                        <li>• 1.5GB Daily High-Speed Data</li>
+                        <li>• Unlimited Voice Calls (Local/STD)</li>
+                        <li>• 100 SMS per Day</li>
+                        <li>• Free Subscription to Entertainment Apps</li>
+                        <li>• Rollover Data Benefit</li>
+                    </ul>
+                    <a href="plans.html" class="w-full bg-gradient-to-r from-[#B33791] to-[#C562AF] text-white font-bold py-2 px-4 rounded hover:from-[#C562AF] hover:to-[#DB8DD0] transition-all duration-300 inline-block text-center">
+                        Recharge Now
+                    </a>
+                </div>
+                <div class="bg-white bg-opacity-20 backdrop-blur-lg rounded-lg p-6 text-center shadow-lg border border-white border-opacity-20">
+                    <h3 class="text-2xl font-bold text-white mb-2">₹299</h3>
+                    <p class="text-gray-200 mb-4">56 Days Validity | All Networks</p>
+                    <ul class="text-left text-gray-200 mb-6 space-y-2">
+                        <li>• 2GB Daily High-Speed Data</li>
+                        <li>• Unlimited Voice Calls (Local/STD)</li>
+                        <li>• 100 SMS per Day</li>
+                        <li>• Amazon Prime Subscription Worth ₹999</li>
+                        <li>• 10GB Additional Data for Streaming</li>
+                        <li>• International Roaming Pack</li>
+                    </ul>
+                    <a href="plans.html" class="w-full bg-gradient-to-r from-[#C562AF] to-[#DB8DD0] text-white font-bold py-2 px-4 rounded hover:from-[#DB8DD0] hover:to-[#FEC5F6] transition-all duration-300 inline-block text-center">
+                        Recharge Now
+                    </a>
+                </div>
+                <div class="bg-white bg-opacity-20 backdrop-blur-lg rounded-lg p-6 text-center shadow-lg border border-white border-opacity-20">
+                    <h3 class="text-2xl font-bold text-white mb-2">₹499</h3>
+                    <p class="text-gray-200 mb-4">84 Days Validity | All Networks</p>
+                    <ul class="text-left text-gray-200 mb-6 space-y-2">
+                        <li>• 3GB Daily High-Speed Data</li>
+                        <li>• Unlimited Voice Calls (Local/STD)</li>
+                        <li>• 100 SMS per Day</li>
+                        <li>• Netflix Subscription Worth ₹1499</li>
+                        <li>• 50GB Additional Data</li>
+                        <li>• Free Caller Tune Service</li>
+                        <li>• Priority Customer Support</li>
+                    </ul>
+                    <a href="plans.html" class="w-full bg-gradient-to-r from-[#DB8DD0] to-[#FEC5F6] text-white font-bold py-2 px-4 rounded hover:from-[#FEC5F6] hover:to-[#B33791] transition-all duration-300 inline-block text-center">
+                        Recharge Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white bg-opacity-10 backdrop-blur-lg py-8 px-4">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-200">&copy; 2023 RechargeHub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+    <script src="script.js"></script>
